@@ -13,6 +13,11 @@ Eg.: from_string_to_fraction("-2.5(37)") returns "-1256/495".
 
 It needs the functions gcd() and number_of_decimal_places_of()!
 
+This only works with rational numbers because rational numbers
+are all the numbers and the only numbers that can be written
+as the divison of two integers, that's the definition of rational numbers.
+Note that recurring decimals are rational numbers, and that 0,(9)=1.
+
 Read the functions' docstrings for more information.
 """
 
