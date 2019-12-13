@@ -1,4 +1,4 @@
-# Converts-decimal-rational-numbers-to-fractions
+# Converts decimal rational numbers to fractions
 This repository contains a Python program that converts [rational numbers](https://en.wikipedia.org/wiki/Rational_number), in [decimal notation](https://en.wikipedia.org/wiki/Decimal), to [fractions](https://en.wikipedia.org/wiki/Fraction_(mathematics)) in form _n_/_m_ where _n_ and _m_ are [integers](https://en.wikipedia.org/wiki/Integer).
 
 For example: -4.3(7) = -4.377777777... = -197/45.
