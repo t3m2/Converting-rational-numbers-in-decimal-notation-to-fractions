@@ -1,6 +1,6 @@
 # Converts decimal rational numbers to fractions
 
-[![Run on Repl.it](https://repl.it/badge/github/t3m2/Converts-decimal-rational-numbers-to-fractions)](https://repl.it/github/t3m2/Converts-decimal-rational-numbers-to-fractions)
+-[x] [![Run on Repl.it](https://repl.it/badge/github/t3m2/Converts-decimal-rational-numbers-to-fractions)](https://repl.it/github/t3m2/Converts-decimal-rational-numbers-to-fractions)
 
 This repository contains a Python program that converts [rational numbers](https://en.wikipedia.org/wiki/Rational_number), in [decimal notation](https://en.wikipedia.org/wiki/Decimal), to [fractions](https://en.wikipedia.org/wiki/Fraction_(mathematics)) in form _n_/_m_ where _n_ and _m_ are [integers](https://en.wikipedia.org/wiki/Integer).
 
