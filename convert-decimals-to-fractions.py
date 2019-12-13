@@ -35,7 +35,7 @@ def gcd(a=1, b=1):
 
 
 def number_of_decimal_places_of(x=0):
-  """Returns the number of decimal places of a float.
+  """Returns the number of decimal places of a float or int.
   
   Make sure x is a float or int
   because this function assumes that."""
