@@ -1,7 +1,7 @@
 """
-Made by @t3m2 in 9,10/07/2019, (july), dd/mm/yyyy. :)
-
-Language: Python
+Author: @t3m2.
+Date: 9,10/07/2019, (july), dd/mm/yyyy.
+Language: Python.
 
 This program converts rational numbers into fractions,
 I have built the function from_string_to_fraction()
