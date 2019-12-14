@@ -118,7 +118,7 @@ def from_string_to_fraction(x='0'):
   # <=> y = (2537-25)  /   (1000-10)      <=>
   # <=> y =  2512      /     990           =>
   #  => y = numerator  /    denominator    => # Then we need to simplify the fraction,
-  #  => y =  1256      /       495            # and this will be the final result.
+  #  => y =  1256      /     495              # and this will be the final result.
   
   # Note that both numerator and denominator are integers.
 
