@@ -3,7 +3,11 @@ Author: @t3m2.
 Date: 9,10/07/2019, (july), dd/mm/yyyy.
 Language: Python.
 
-This program converts rational numbers into fractions,
+This program defines three functions which can be used to
+converts rational numbers into fractions:
+from_string_to_fraction(),
+gcd() and number_of_decimal_places_of()
+
 I have built the function from_string_to_fraction()
 that receives a string representing a rational number
 in decimal notation, such as "2.5(37)", "-7.8" or "4"
@@ -121,21 +125,4 @@ def from_string_to_fraction(x='0'):
   numerator = sign*(numerator/factor)
   denominator = denominator/factor
 
-  return "%d/%d" % (numerator, denominator) 
-
-
-### TESTING ###
-
-print("This program turns \"any\" rational number in decimal notation \
-into a fraction, for example: -2.5(37) = -2.537373737373737... = -1256/495\n\n")
-
-while 1:
-  try:
-    x = input("Enter a rational number in decimal notation (exit: 'b'): ")
-    if x == 'b':
-      break
-    print("%s = %s" % (x, from_string_to_fraction(x)))
-  except:
-    print("Error: probably, invalid input.")
-
-  print()
+  return "%d/%d" % (numerator, denominator)
