@@ -11,16 +11,12 @@ gcd() and number_of_decimal_places_of().
 I have built the function from_string_to_fraction()
 that receives a string representing a rational number
 in decimal notation, such as "2.5(37)", "-7.8" or "4"
-and returns a string with the correspondent fraction.
+and returns a string with the correspondent fraction
+in form "n/m" where n and m are integers.
 
 Eg.: from_string_to_fraction("-2.5(37)") returns "-1256/495". 
 
 It needs the functions gcd() and number_of_decimal_places_of()!
-
-This only works with rational numbers because rational numbers
-are all the numbers and the only numbers that can be written as
-the divison of two integers, that's the definition of rational numbers.
-Note that recurring decimals are rational numbers, and that 0,(9)=1.
 
 Read the functions' docstrings for more information.
 """
@@ -50,12 +46,18 @@ def number_of_decimal_places_of(x=0):
 
 def from_string_to_fraction(x='0'):
   """Receives a string representing a rational number in decimal notation,
-  such as "-2.5(37)", "-7.8" or "4",
-  and returns a string with the correspondent fraction. 
+  such as "-2.5(37)", "-7.8" or "4", and
+  returns a string with the correspondent fraction in form "n/m",
+  where both n and m are integers. 
   
   Eg.: from_string_to_fraction("-2.5(37)") returns "-1256/495".
   
-  It needs the functions gcd() and number_of_decimal_places_of()! 
+  It needs the functions gcd() and number_of_decimal_places_of()!
+  
+  This only works with rational numbers because rational numbers
+  are all the numbers and the only numbers that can be written as
+  the divison of two integers, that's the definition of rational numbers.
+  Note that recurring decimals are rational numbers, and that 0,(9)=1.
   
   Make sure that: (input restrictions)
   - the argument is a valid string representing
