@@ -1,6 +1,7 @@
 """
 Author: t3m2
 Date: 9,10/7/2019, dd/mm/yyyy
+Language: Python
 
 This program tests the document convert_decimals_to_fractions.py.
 It "asks" for rational numbers in decimal notation and
