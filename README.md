@@ -21,4 +21,4 @@ I created the following files:
 
 Note that [operation with floats are not exact](https://docs.python.org/2/tutorial/floatingpoint.html) so, approximations are a possibility, the program doesn't have infinite precision, and numbers that are too big or too small will be approximated or result in an error...
 
-:smiley: :+1:
+:wave::smiley::+1:
