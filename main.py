@@ -1,7 +1,11 @@
 """
 Author: t3m2
 Date: 9,10/7/2019, dd/mm/yyyy
-This program tests the document convert_decimals_to_fractions.
+
+This program tests the document convert_decimals_to_fractions.py.
+It "asks" for rational numbers in decimal notation and
+prints the correspondent fraction in form n/m, 
+where n and m are integers, until the user wants to exit.
 """
 
 import convert_decimals_to_fractions
