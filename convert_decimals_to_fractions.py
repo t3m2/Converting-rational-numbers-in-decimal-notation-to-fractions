@@ -112,10 +112,14 @@ def from_string_to_fraction(x='0'):
   
   # Here is a method that can be used in order to discover the fraction:
   # If y=2,5(37): (mathematical notation)
-  # 1000y - y = 2537,(37) - 25,(37)                   <=>
-  # <=> y = ( 2537,(37)-25,(37) )    /     (1000-1)   <=>
-  # <=> y =      (2537-25)           /     (1000-1)    =>
-  #  => y =      numerator           /    denominator
+  # 1000y - 10y = 2537,(37) - 25,(37)     <=>
+  # 1000y - 10y = 2537 - 25               <=>
+  # (1000-10) * y = 2537 - 25             <=>
+  # <=> y = (2537-25)  /   (1000-10)      <=>
+  # <=> y =  2512      /     990           =>
+  #  => y = numerator  /    denominator    => # Then we need to simplify the fraction,
+  #  => y =  1256      /       495            # and this will be the final result.
+  
   # Note that both numerator and denominator are integers.
 
   # I implemented this with f and p:
