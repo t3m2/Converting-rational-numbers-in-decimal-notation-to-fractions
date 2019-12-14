@@ -11,7 +11,8 @@ gcd() and number_of_decimal_places_of().
 
 I have built the function from_string_to_fraction()
 that receives a string representing a rational number
-in decimal notation, such as "2.5(37)", "-7.8" or "4"
+in decimal notation (including repeating decimals),
+such as "2.5(37)", "-7.8" or "4"
 and returns a string with the correspondent fraction
 in form "n/m" where n and m are integers.
 
