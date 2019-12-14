@@ -6,7 +6,7 @@ Language: Python.
 This program defines three functions which can be used to
 converts rational numbers into fractions:
 from_string_to_fraction(),
-gcd() and number_of_decimal_places_of()
+gcd() and number_of_decimal_places_of().
 
 I have built the function from_string_to_fraction()
 that receives a string representing a rational number
