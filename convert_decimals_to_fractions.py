@@ -18,6 +18,9 @@ in form "n/m" where n and m are integers.
 
 Eg.: from_string_to_fraction("-2.5(37)") returns "-1256/495". 
 
+If the number is a repeating decimal,
+its peridod should appear between round brackets.
+
 It needs the functions gcd() and number_of_decimal_places_of()!
 
 Read the functions' docstrings for more information.
@@ -70,6 +73,7 @@ def from_string_to_fraction(x='0'):
     a rational number in decimal notation;
   - the decimal separator (if there) is a '.' or a ',';
   - if the input is a recurring decimal, the period comes between round brackets.
+    (12.431111111111111... is represented as "12.43(1)".)
   Because this function assumes that!"""
   
   # The input string can have a ',' or a '.' separating the int and the decimal part:
