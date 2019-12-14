@@ -52,7 +52,7 @@ def number_of_decimal_places_of(x=0):
 
 def from_string_to_fraction(x='0'):
   """Receives a string representing a rational number in decimal notation,
-  such as "-2.5(37)", "-7.8" or "4", and
+  (including repeating decimals) such as "-2.5(37)", "-7.8" or "4", and
   returns a string with the correspondent fraction in form "n/m",
   where both n and m are integers. 
   
