@@ -1,6 +1,7 @@
 """
 Author: @t3m2.
-Date: 9,10/07/2019, (july), dd/mm/yyyy.
+Date of creation: 09/07/2019, , dd/mm/yyyy, (july).
+Version: 14/12/2019, dd/mm/yyyy, (december).
 Language: Python.
 
 This program defines three functions which can be used to
@@ -20,6 +21,10 @@ It needs the functions gcd() and number_of_decimal_places_of()!
 
 Read the functions' docstrings for more information.
 """
+__author__ = "t3m2"
+__date__ = "09/07/2019, , dd/mm/yyyy, (july)"
+__version__ = "14/12/2019, dd/mm/yyyy, (december)"
+
 
 def gcd(a=1, b=1):
   """Returns the greatest common divisor
