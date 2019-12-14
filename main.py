@@ -4,7 +4,8 @@ Date: 9,10/7/2019, dd/mm/yyyy
 Language: Python
 
 This program tests the document convert_decimals_to_fractions.py.
-It "asks" for rational numbers in decimal notation and
+It "asks" for rational numbers in decimal notation,
+(including repeating decimals) and
 prints the correspondent fraction in form n/m, 
 where n and m are integers, until the user wants to exit.
 """
