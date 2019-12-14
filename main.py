@@ -1,3 +1,9 @@
+"""
+Author: t3m2
+Date: 9,10/7/2019, dd/mm/yyyy
+This program tests the document convert_decimals_to_fractions.
+"""
+
 import convert_decimals_to_fractions
 
 print("This program turns \"any\" rational number in decimal notation \
