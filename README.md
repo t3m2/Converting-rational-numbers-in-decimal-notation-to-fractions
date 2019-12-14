@@ -13,6 +13,6 @@ I created:
 
 - [x] a program called [main.py](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/main.py)  which can be used to convert rational numbers (in decimal notation) to fractions by using *convert_decimals_to_fractions*;
 
-- [x] a file called [.replit](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/.replit) in which I "tell" [Repl.it](https://repl.it/) what to do if you [run this repo on Repl.it](https://repl.it/github/t3m2/Converts-decimal-rational-numbers-to-fractions). (Although I didn't have to, because the main program is called main.py)
+- [x] a file called [.replit](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/.replit) in which I "tell" [Repl.it](https://repl.it/) what to do if you [run this repo on Repl.it](https://repl.it/github/t3m2/Converts-decimal-rational-numbers-to-fractions). (Although I didn't have to, because the main program is called main.py.)
 
 Check [the program](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/main.py) for more information, since the comments explain how it works.
