@@ -20,3 +20,5 @@ I created the following files:
 - [x] [*README.md*](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/README.md), this file.
 
 Note that [operation with floats are not exact](https://docs.python.org/2/tutorial/floatingpoint.html) so, approximations are a possibility, the program doesn't have infinite precision, and numbers that are too big or too small will be approximated or result in an error...
+
+:smiley: :+1:
