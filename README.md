@@ -2,6 +2,8 @@
 # Converting rational numbers in decimal notation to fractions
 This repository contains a [Python](https://www.python.org/) program that converts strings representing [rational numbers](https://en.wikipedia.org/wiki/Rational_number), in [decimal notation](https://en.wikipedia.org/wiki/Decimal), to [fractions](https://en.wikipedia.org/wiki/Fraction_(mathematics)) in form "_n_/_m_" where _n_ and _m_ are [integers](https://en.wikipedia.org/wiki/Integer).
 
+If the number is a [repeating decimal](https://en.wikipedia.org/wiki/Repeating_decimal#Notation), its peridod should be between round brackets since this is the easier way to represent it using a regular keyboard.
+
 For example: -2.5(37) = -2.537373737373737... = -1256/495.
 
 Input: "-2.5(37)" results in output: "-1256/495".
