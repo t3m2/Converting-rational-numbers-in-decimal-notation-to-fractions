@@ -10,6 +10,7 @@ where n and m are integers, until the user wants to exit.
 """
 
 import convert_decimals_to_fractions
+# Check convert_decimals_to_fractions.py for more information.
 
 print("This program turns \"any\" rational number in decimal notation \
 into a fraction, for example: -2.5(37) = -2.537373737373737... = -1256/495\n\n")
