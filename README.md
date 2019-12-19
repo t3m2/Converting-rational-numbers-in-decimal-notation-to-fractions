@@ -14,7 +14,7 @@ simplified fraction (in form _n_/_m_ where both _n_ and _m_ are integers)? You c
 
 This only works with rational numbers because [rational numbers](https://en.wikipedia.org/wiki/Rational_number) are all the numbers and the only numbers that can be written as the divison of two integers, that is the definition of rational numbers. Note that [recurring decimals](https://en.wikipedia.org/wiki/Repeating_decimal) (dízimas infinitas periódicas) are rational numbers, and that [0,(9)=1](https://en.wikipedia.org/wiki/0.999...).
 
-I created the following files:
+This repository consists of the following files:
 - [x] [*convert_decimals_to_fractions.py*](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/convert_decimals_to_fractions.py) where I defined the functions needed and **explained the process in the comments**;
 
 - [x] [*main.py*](https://github.com/t3m2/Converting-rational-numbers-in-decimal-notation-to-fractions/blob/master/main.py)  which can be used to convert rational numbers (in decimal notation) to fractions by using *convert_decimals_to_fractions*;
