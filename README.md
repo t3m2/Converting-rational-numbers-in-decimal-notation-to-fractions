@@ -4,9 +4,9 @@ This repository contains a [Python](https://www.python.org/) program that conver
 
 If the number is a [repeating decimal](https://en.wikipedia.org/wiki/Repeating_decimal#Notation), its period should be between round brackets since this is the easier way to represent it using a regular keyboard.
 
-For example: -2.5(37) = -2.537373737373737... = -1256/495.
+For example: -2,5(37) = -2,537373737373737... = -1256/495.
 
-Input: "-2.5(37)" results in output: "-1256/495".
+Input: "-2,5(37)" results in output: "-1256/495".
 
 **This is particularly useful when we have a [repeating decimal](https://en.wikipedia.org/wiki/Repeating_decimal) and want to write it as a 
 simplified fraction.** For instance, the number 825.27(123) is equal to which 
